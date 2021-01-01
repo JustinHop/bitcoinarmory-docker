@@ -17,8 +17,5 @@ docker run -it --rm \
     -e DBUS_SESSION_BUS_ADDRESS \
     -v $WORKDIR/home:/home \
     -v /tmp/.X11-unix:/tmp/.X11-unix \
-    -v /run/user:/run/user \
-    -v /run/dbus:/run/dbus \
-    -v /var/run/dbus:/var/run/dbus \
     $TAG:latest $@
 
