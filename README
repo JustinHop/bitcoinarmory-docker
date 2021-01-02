@@ -1,0 +1,5 @@
+This is a dockerized version of https://github.com/goatpig/BitcoinArmory.git
+and https://github.com/bitcoin/bitcoin.git
+and db4.8 and https://github.com/warmcat/libwebsockets.git
+
+Look at run.sh for ideas on how to run it
