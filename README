@@ -3,3 +3,6 @@ and https://github.com/bitcoin/bitcoin.git
 and db4.8 and https://github.com/warmcat/libwebsockets.git
 
 Look at run.sh for ideas on how to run it
+
+
+You probably want to run just /usr/local/bin/bitcoind until the blockchain is synced up, then run armory.
